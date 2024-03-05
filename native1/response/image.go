@@ -3,7 +3,7 @@ package response
 import (
 	"encoding/json"
 
-	"github.com/prebid/openrtb/v19/native1"
+	"github.com/yinon3/openrtb/native1"
 )
 
 // 5.4 Object: Image

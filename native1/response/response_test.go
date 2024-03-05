@@ -5,11 +5,7 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	. "github.com/prebid/openrtb/v19/native1/response"
-
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/extensions/table"
-	. "github.com/onsi/gomega"
+	. "github.com/yinon3/openrtb/native1/response"
 )
 
 var _ = Describe("Response", func() {

@@ -5,11 +5,7 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	. "github.com/prebid/openrtb/v19/openrtb2"
-
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/extensions/table"
-	. "github.com/onsi/gomega"
+	. "github.com/yinon3/openrtb/openrtb2"
 )
 
 var _ = Describe("BidResponse", func() {
