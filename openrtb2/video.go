@@ -277,7 +277,7 @@ type Video struct {
 	//   integer
 	// Description:
 	//   Minimum bit rate in Kbps.
-	MinBitRate int64 `json:"minbitrate,omitempty"`
+	MinBitRate *int64 `json:"minbitrate,omitempty"`
 
 	// Attribute:
 	//   maxbitrate

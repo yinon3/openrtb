@@ -124,7 +124,7 @@ type Banner struct {
 	// Description:
 	//   Indicates if the banner is in the top frame as opposed to an
 	//   iframe, where 0 = no, 1 = yes.
-	TopFrame int8 `json:"topframe,omitempty"`
+	TopFrame *int8 `json:"topframe,omitempty"`
 
 	// Attribute:
 	//   expdir

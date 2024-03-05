@@ -137,7 +137,7 @@ type Device struct {
 	//   integer
 	// Definition:
 	//   Support for JavaScript, where 0 = no, 1 = yes.
-	JS int8 `json:"js,omitempty"`
+	JS *int8 `json:"js,omitempty"`
 
 	// Attribute:
 	//   lang
